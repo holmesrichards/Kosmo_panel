@@ -1,0 +1,92 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Jack_Hole
+#
+DEF Jack_Hole H 0 40 Y Y 1 F N
+F0 "H" 150 50 50 H V C CNN
+F1 "Jack_Hole" 300 -50 50 H V C CNN
+F2 "Kosmo_panel:Kosmo_Jack_Hole" 0 150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 100 1 1 20 f
+X ~ 1 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Led_Hole
+#
+DEF Led_Hole H 0 40 Y Y 1 F N
+F0 "H" 95 55 50 H V C CNN
+F1 "Led_Hole" 245 -45 50 H V C CNN
+F2 "Kosmo_panel:Kosmo_LED_Hole" 115 145 50 H I C CNN
+F3 "" -5 5 50 H I C CNN
+DRAW
+C 0 0 25 1 1 8 f
+P 2 1 1 8 -40 0 -70 0 N
+P 2 1 1 8 -30 -30 -50 -50 N
+P 2 1 1 8 -30 30 -50 50 N
+P 2 1 1 8 0 -70 0 -40 N
+P 2 1 1 8 0 40 0 70 N
+P 2 1 1 8 50 -50 30 -30 N
+P 2 1 1 8 50 50 30 30 N
+P 2 1 1 8 70 0 40 0 N
+ENDDRAW
+ENDDEF
+#
+# Mounting_Holes
+#
+DEF Mounting_Holes H 0 40 Y Y 1 F N
+F0 "H" 0 50 50 H V C CNN
+F1 "Mounting_Holes" 0 -50 50 H V C CNN
+F2 "Kosmo_panel:Kosmo_Panel_Dual_Mounting_Holes" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -200 50 1 1 50 N
+C 0 200 50 1 1 50 N
+X ~ 1 0 -350 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Pot_Hole
+#
+DEF Pot_Hole H 0 40 Y Y 1 F N
+F0 "H" 190 55 50 H V C CNN
+F1 "Pot_Hole" 320 -70 50 H V C CNN
+F2 "Kosmo_panel:Kosmo_Pot_Hole" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 20 F
+C 0 0 150 0 1 20 f
+X ~ 1 0 -250 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_Hole
+#
+DEF Switch_Hole H 0 40 Y Y 1 F N
+F0 "H" 190 55 50 H V C CNN
+F1 "Switch_Hole" 390 -70 50 H V C CNN
+F2 "Kosmo_panel:Kosmo_Switch_Hole" 25 260 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 5 150 0 1 20 f
+P 2 0 1 59 0 0 0 200 N
+X ~ 1 0 -250 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Trimmer_Hole
+#
+DEF Trimmer_Hole H 0 40 Y Y 1 F N
+F0 "H" 100 40 50 H V C CNN
+F1 "Trimmer_Hole" 325 -50 50 H V C CNN
+F2 "Kosmo_panel:Kosmo_Trimmer_Pot_Hole" -90 120 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 39 0 1 12 f
+P 2 0 1 12 -35 0 35 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
