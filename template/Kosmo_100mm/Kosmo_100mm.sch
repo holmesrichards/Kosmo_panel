@@ -1,0 +1,292 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Kosmo:Mounting_Holes H1
+U 1 1 5F0B50B1
+P 10400 850
+F 0 "H1" H 10350 900 50  0000 L CNN
+F 1 "Panel" H 10300 800 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Panel_Dual_Mounting_Holes" H 10400 850 50  0001 C CNN
+F 3 "" H 10400 850 50  0001 C CNN
+	1    10400 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F0B59C1
+P 10400 1200
+F 0 "#PWR01" H 10400 950 50  0001 C CNN
+F 1 "GND" H 10405 1027 50  0000 C CNN
+F 2 "" H 10400 1200 50  0001 C CNN
+F 3 "" H 10400 1200 50  0001 C CNN
+	1    10400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Mounting_Holes H2
+U 1 1 5F0B8330
+P 10650 850
+F 0 "H2" H 10600 900 50  0000 L CNN
+F 1 "Panel" H 10550 800 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Panel_Dual_Mounting_Holes" H 10650 850 50  0001 C CNN
+F 3 "" H 10650 850 50  0001 C CNN
+	1    10650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F0B8336
+P 10650 1200
+F 0 "#PWR02" H 10650 950 50  0001 C CNN
+F 1 "GND" H 10655 1027 50  0000 C CNN
+F 2 "" H 10650 1200 50  0001 C CNN
+F 3 "" H 10650 1200 50  0001 C CNN
+	1    10650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Jack_Hole H13
+U 1 1 5F0BCD70
+P 10050 3900
+F 0 "H13" H 10185 3892 50  0000 L CNN
+F 1 "Jack_Hole" H 10185 3801 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Jack_Hole" H 10050 4050 50  0001 C CNN
+F 3 "" H 10050 3900 50  0001 C CNN
+	1    10050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Led_Hole H6
+U 1 1 5F0BD9D5
+P 10400 2150
+F 0 "H6" H 10350 2250 50  0000 L CNN
+F 1 "Led_Hole" H 10250 2000 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_LED_Hole" H 10515 2295 50  0001 C CNN
+F 3 "" H 10395 2155 50  0001 C CNN
+	1    10400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Pot_Hole H9
+U 1 1 5F0BE8D9
+P 9950 2600
+F 0 "H9" H 10135 2592 50  0000 L CNN
+F 1 "Pot_Hole" H 10135 2501 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Pot_Hole" H 9950 2600 50  0001 C CNN
+F 3 "" H 9950 2600 50  0001 C CNN
+	1    9950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Switch_Hole H4
+U 1 1 5F0BF34F
+P 9950 1900
+F 0 "H4" H 10135 1927 50  0000 L CNN
+F 1 "Switch_Hole" H 10135 1836 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Switch_Hole" H 9975 2160 50  0001 C CNN
+F 3 "" H 9950 1900 50  0001 C CNN
+	1    9950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Trimmer_Hole H5
+U 1 1 5F0BFE6D
+P 10650 1900
+F 0 "H5" H 10720 1946 50  0000 L CNN
+F 1 "Trimmer_Hole" H 10720 1855 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Trimmer_Pot_Hole" H 10560 2020 50  0001 C CNN
+F 3 "" H 10650 1900 50  0001 C CNN
+	1    10650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5F0C0DAB
+P 10050 4100
+F 0 "#PWR09" H 10050 3850 50  0001 C CNN
+F 1 "GND" H 10055 3927 50  0000 C CNN
+F 2 "" H 10050 4100 50  0001 C CNN
+F 3 "" H 10050 4100 50  0001 C CNN
+	1    10050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F0C12BE
+P 9950 2850
+F 0 "#PWR05" H 9950 2600 50  0001 C CNN
+F 1 "GND" H 9955 2677 50  0000 C CNN
+F 2 "" H 9950 2850 50  0001 C CNN
+F 3 "" H 9950 2850 50  0001 C CNN
+	1    9950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F0C186A
+P 9950 2150
+F 0 "#PWR04" H 9950 1900 50  0001 C CNN
+F 1 "GND" H 9955 1977 50  0000 C CNN
+F 2 "" H 9950 2150 50  0001 C CNN
+F 3 "" H 9950 2150 50  0001 C CNN
+	1    9950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Pot_Hole H11
+U 1 1 5F0C7411
+P 9950 3250
+F 0 "H11" H 10135 3242 50  0000 L CNN
+F 1 "Pot_Hole" H 10135 3151 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Pot_Hole" H 9950 3250 50  0001 C CNN
+F 3 "" H 9950 3250 50  0001 C CNN
+	1    9950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F0C7417
+P 9950 3500
+F 0 "#PWR07" H 9950 3250 50  0001 C CNN
+F 1 "GND" H 9955 3327 50  0000 C CNN
+F 2 "" H 9950 3500 50  0001 C CNN
+F 3 "" H 9950 3500 50  0001 C CNN
+	1    9950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Pot_Hole H10
+U 1 1 5F0C9197
+P 10700 2600
+F 0 "H10" H 10885 2592 50  0000 L CNN
+F 1 "Pot_Hole" H 10885 2501 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Pot_Hole" H 10700 2600 50  0001 C CNN
+F 3 "" H 10700 2600 50  0001 C CNN
+	1    10700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F0C919D
+P 10700 2850
+F 0 "#PWR06" H 10700 2600 50  0001 C CNN
+F 1 "GND" H 10705 2677 50  0000 C CNN
+F 2 "" H 10700 2850 50  0001 C CNN
+F 3 "" H 10700 2850 50  0001 C CNN
+	1    10700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Pot_Hole H12
+U 1 1 5F0C91A3
+P 10700 3250
+F 0 "H12" H 10885 3242 50  0000 L CNN
+F 1 "Pot_Hole" H 10885 3151 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Pot_Hole" H 10700 3250 50  0001 C CNN
+F 3 "" H 10700 3250 50  0001 C CNN
+	1    10700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5F0C91A9
+P 10700 3500
+F 0 "#PWR08" H 10700 3250 50  0001 C CNN
+F 1 "GND" H 10705 3327 50  0000 C CNN
+F 2 "" H 10700 3500 50  0001 C CNN
+F 3 "" H 10700 3500 50  0001 C CNN
+	1    10700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Jack_Hole H14
+U 1 1 5F0CCB87
+P 10650 3900
+F 0 "H14" H 10785 3892 50  0000 L CNN
+F 1 "Jack_Hole" H 10785 3801 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Jack_Hole" H 10650 4050 50  0001 C CNN
+F 3 "" H 10650 3900 50  0001 C CNN
+	1    10650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5F0CCB8D
+P 10650 4100
+F 0 "#PWR010" H 10650 3850 50  0001 C CNN
+F 1 "GND" H 10655 3927 50  0000 C CNN
+F 2 "" H 10650 4100 50  0001 C CNN
+F 3 "" H 10650 4100 50  0001 C CNN
+	1    10650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Led_Hole H7
+U 1 1 5F0CD82B
+P 10650 2150
+F 0 "H7" H 10650 2250 50  0000 L CNN
+F 1 "Led_Hole" H 10500 2050 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_LED_Hole" H 10765 2295 50  0001 C CNN
+F 3 "" H 10645 2155 50  0001 C CNN
+	1    10650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kosmo:Led_Hole H8
+U 1 1 5F0CDC08
+P 10850 2150
+F 0 "H8" H 10800 2250 50  0000 L CNN
+F 1 "Led_Hole" H 10700 2000 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_LED_Hole" H 10965 2295 50  0001 C CNN
+F 3 "" H 10845 2155 50  0001 C CNN
+	1    10850 2150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11150 1600 9750 1600
+Wire Notes Line
+	9750 1600 9750 4400
+Wire Notes Line
+	9750 4400 11150 4400
+Wire Notes Line
+	11150 4400 11150 1600
+Text Notes 9750 4400 0    50   ~ 0
+Front Panel
+Text Notes 10300 1500 0    50   ~ 0
+Panel mount
+$Comp
+L Kosmo:Mounting_Holes H3
+U 1 1 5F0B27C1
+P 10900 850
+F 0 "H3" H 10850 900 50  0000 L CNN
+F 1 "Panel" H 10800 800 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Panel_Dual_Mounting_Holes" H 10900 850 50  0001 C CNN
+F 3 "" H 10900 850 50  0001 C CNN
+	1    10900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F0B27C7
+P 10900 1200
+F 0 "#PWR03" H 10900 950 50  0001 C CNN
+F 1 "GND" H 10905 1027 50  0000 C CNN
+F 2 "" H 10900 1200 50  0001 C CNN
+F 3 "" H 10900 1200 50  0001 C CNN
+	1    10900 1200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
