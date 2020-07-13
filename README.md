@@ -13,6 +13,6 @@ KiCad footprint library for Kosmo panel elements
 
 ## Templates
 
-* 1U Front panel
-* 2U Front panel
-* 4U Front panel
+* 25mm Front panel
+* 50mm Front panel
+* 100mm Front panel
