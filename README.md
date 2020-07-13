@@ -17,3 +17,5 @@ KiCad footprint library and templates for Kosmo panels
 * Kosmo_25mm
 * Kosmo_50mm
 * Kosmo_100mm
+
+![25 mm](./template/Kosmo_25mm/meta/brd.png) ![50 mm](./template/Kosmo_50mm/meta/brd.png) ![100 mm](./template/Kosmo_100mm/meta/brd.png)
